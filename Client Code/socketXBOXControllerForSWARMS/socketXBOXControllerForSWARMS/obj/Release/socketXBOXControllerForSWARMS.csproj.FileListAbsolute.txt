@@ -1,0 +1,8 @@
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\bin\Release\socketXBOXControllerForSWARMS.exe
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\bin\Release\socketXBOXControllerForSWARMS.pdb
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\socketXBOXControllerForSWARMS.SWARMSControlWindow.resources
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\socketXBOXControllerForSWARMS.Properties.Resources.resources
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\socketXBOXControllerForSWARMS.csproj.GenerateResource.Cache
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\socketXBOXControllerForSWARMS.exe
+C:\Documents and Settings\Alexander H. List\Desktop\SCU FAIR\socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS\obj\Release\socketXBOXControllerForSWARMS.pdb

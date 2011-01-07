@@ -1,0 +1,1129 @@
+MPLINK 4.20, Linker
+Linker Map File - Created Thu Mar 25 18:46:37 2010
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+    HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
+     LOW_INTERRUPT_VECTOR       code   0x000018    program   0x000006
+    REMAPPED_RESET_VECTOR       code   0x000800    program   0x000006
+REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x000808    program   0x000006
+REMAPPED_LOW_INTERRUPT_VECTOR       code   0x000818    program   0x000006
+                   .cinit    romdata   0x00082a    program   0x00001a
+       .code_usb_device.o       code   0x000844    program   0x00108e
+             .code_main.o       code   0x0018d2    program   0x000da8
+         .code_fifoTxRx.o       code   0x00267a    program   0x000698
+                   STDLIB       code   0x002d12    program   0x000366
+               _cinit_scn       code   0x003078    program   0x00009e
+.romdata_usb_descriptors.o    romdata   0x003116    program   0x00009e
+                     PROG       code   0x0031b4    program   0x00004c
+            .code_uread.o       code   0x003200    program   0x00003e
+                   STRING       code   0x00323e    program   0x000034
+             D10KTCYXCODE       code   0x003272    program   0x00002e
+           .code_uwrite.o       code   0x0032a0    program   0x00002e
+         .code_fxd1616u.o       code   0x0032ce    program   0x00002c
+             _startup_scn       code   0x0032fa    program   0x00001c
+                    .code       code   0x003316    program   0x00000e
+           .code___init.o       code   0x003324    program   0x000002
+    .romdata_usb_device.o    romdata   0x003326    program   0x000000
+.idata_usb_function_generic.o_i    romdata   0x003326    program   0x000000
+.romdata_usb_function_generic.o    romdata   0x003326    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x003326    program   0x000000
+         .idata_uread.o_i    romdata   0x003326    program   0x000000
+         .romdata_uread.o    romdata   0x003326    program   0x000000
+         .idata_udefs.o_i    romdata   0x003326    program   0x000000
+         .romdata_udefs.o    romdata   0x003326    program   0x000000
+        .idata_uwrite.o_i    romdata   0x003326    program   0x000000
+        .romdata_uwrite.o    romdata   0x003326    program   0x000000
+        .romdata___init.o    romdata   0x003326    program   0x000000
+    .idata_usb_device.o_i    romdata   0x003326    program   0x000000
+.idata_usb_descriptors.o_i    romdata   0x003326    program   0x000000
+      .romdata_fifoTxRx.o    romdata   0x003326    program   0x000000
+         .romdata_c018i.o    romdata   0x003326    program   0x000000
+          .idata_main.o_i    romdata   0x003326    program   0x00002d
+          .romdata_main.o    romdata   0x003326    program   0x000000
+             .stringtable    romdata   0x003326    program   0x000000
+      .idata_fifoTxRx.o_i    romdata   0x003353    program   0x000008
+      .idata_fxd1616u.o_i    romdata   0x003353    program   0x000000
+         .idata_c018i.o_i    romdata   0x00335b    program   0x000000
+        .idata___init.o_i    romdata   0x00335b    program   0x000000
+            .code_udefs.o       code   0x00335c    program   0x000000
+            .code_c018i.o       code   0x00335c    program   0x000000
+.code_usb_function_generic.o       code   0x00335c    program   0x000000
+  .code_usb_descriptors.o       code   0x00335c    program   0x000000
+    .config_300000_main.o    romdata   0x300000    program   0x000001
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+    .config_300008_main.o    romdata   0x300008    program   0x000001
+    .config_300009_main.o    romdata   0x300009    program   0x000001
+    .config_30000a_main.o    romdata   0x30000a    program   0x000001
+    .config_30000b_main.o    romdata   0x30000b    program   0x000001
+    .config_30000c_main.o    romdata   0x30000c    program   0x000001
+    .config_30000d_main.o    romdata   0x30000d    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000010
+                 .tmpdata      udata   0x000010       data   0x000007
+                DELAYDAT2      udata   0x000017       data   0x000001
+                DELAYDAT1      udata   0x000018       data   0x000001
+                     gpr3      udata   0x000060       data   0x000080
+           .udata_c018i.o      udata   0x0000e0       data   0x00000a
+            .udata_main.o      udata   0x0000ea       data   0x000008
+        .idata_fifoTxRx.o      idata   0x0000f2       data   0x000008
+           .udata_udefs.o      udata   0x0000fa       data   0x000001
+          .udata___init.o      udata   0x0000fb       data   0x000000
+          .idata_uwrite.o      idata   0x0000fb       data   0x000000
+          .udata_uwrite.o      udata   0x0000fb       data   0x000000
+           .idata_udefs.o      idata   0x0000fb       data   0x000000
+           .idata_uread.o      idata   0x0000fb       data   0x000000
+           .udata_uread.o      udata   0x0000fb       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000fb       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000fb       data   0x000000
+          .idata___init.o      idata   0x0000fb       data   0x000000
+.idata_usb_function_generic.o      idata   0x0000fb       data   0x000000
+.udata_usb_function_generic.o      udata   0x0000fb       data   0x000000
+      .idata_usb_device.o      idata   0x0000fb       data   0x000000
+ .idata_usb_descriptors.o      idata   0x0000fb       data   0x000000
+ .udata_usb_descriptors.o      udata   0x0000fb       data   0x000000
+        .udata_fifoTxRx.o      udata   0x0000fb       data   0x000000
+           .idata_c018i.o      idata   0x0000fb       data   0x000000
+                     gpr2      udata   0x000100       data   0x000080
+            .idata_main.o      idata   0x000180       data   0x00002d
+      .udata_usb_device.o      udata   0x0001ad       data   0x000026
+                   .stack      udata   0x000300       data   0x000100
+                  USB_BDT      udata   0x000400       data   0x000030
+            USB_VARIABLES      udata   0x000500       data   0x0000c0
+            SFR_UNBANKED0      udata   0x000f66       data   0x00009a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000d      
+                            0x000018    0x00001d      
+                            0x000800    0x000805      
+                            0x000808    0x00080d      
+                            0x000818    0x00081d      
+                            0x00082a    0x00335a      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            11105 out of 33048 program addresses used, program memory utilization is 33%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           BlinkUSBStatus   0x002500    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   D10K_1   0x00327e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x00328a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x00327c    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                   D1616S   0x0031d6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x0031e4    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x0031e0    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0031f6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x0031c6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+             Delay10KTCYx   0x003272    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                 FXD1616S   0x0031b4    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x0032ce    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                 High_ISR   0x000008    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         InitializeSystem   0x0019a6    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                  Low_ISR   0x000018    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   ManageAnteriorLighting   0x001f14    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                  OneByte   0x003066    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                  OneByte   0x002eec    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                ProcLower   0x002ffe    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                ProcLower   0x002eae    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                ProcUpper   0x002ff4    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                ProcUpper   0x002ea4    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+    ProcessBaseHardwareIO   0x001d02    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ProcessSWARMSInput   0x0019f4    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      ProcessSWARMSOutput   0x001bba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ProcessUSARTDataIO   0x00236e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                ReadUSART   0x003200    program     extern C:\MCC18\src\pmc_common\USART\uread.c
+        Remapped_High_ISR   0x000808    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         Remapped_Low_ISR   0x000818    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     SWARMSCommandCleanUp   0x001e32    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+ SWARMSMakeCommandSuccess   0x001e44    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         SWARMSProcessing   0x001d2c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     ServiceUSARTCommands   0x002406    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 TstLower   0x002fe8    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                 TstLower   0x002e98    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                 TstUpper   0x002fe2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                 TstUpper   0x002e92    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+            USARTxService   0x0024a8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       USBCBCheckOtherReq   0x00258c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        USBCBErrorHandler   0x00258a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              USBCBInitEP   0x002590    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+          USBCBSendResume   0x0025c8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+    USBCBStdSetDscHandler   0x00258e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+             USBCBSuspend   0x002584    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     USBCBWakeFromSuspend   0x002586    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        USBCB_SOF_Handler   0x002588    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              USBCancelIO   0x0017e6    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBCheckStdRequest   0x000d0e    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBConfigureEndpoint   0x0014d4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         USBCtrlEPService   0x000aa2    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+ USBCtrlEPServiceComplete   0x001066    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfInHandler   0x000c0e    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBCtrlTrfOutHandler   0x000bc2    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfRxService   0x001326    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   USBCtrlTrfSetupHandler   0x000b7c    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfTxService   0x001210    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBDeviceAttach   0x0018a4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBDeviceDetach   0x001896    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+            USBDeviceInit   0x000844    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+           USBDeviceTasks   0x0008e0    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+        USBEnableEndpoint   0x0015a8    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+USBPrepareForNextSetupTrf   0x000ca8    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         USBStallEndpoint   0x001614    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBStallHandler   0x000a22    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+  USBStdFeatureReqHandler   0x000dd6    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBStdGetDscHandler   0x000ef0    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   USBStdGetStatusHandler   0x000fa4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBStdSetCfgHandler   0x001462    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+               USBSuspend   0x000a54    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBTransferOnePacket   0x0016f4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBWakeFromSuspend   0x000a78    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+               USB_CD_Ptr   0x0031ac    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+               USB_SD_Ptr   0x0031ae    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x0025e4    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 UserInit   0x0019ba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               WriteUSART   0x0032a0    program     extern C:\MCC18\src\pmc_common\USART\uwrite.c
+  YourHighPriorityISRCode   0x0018d2    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   YourLowPriorityISRCode   0x001968    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              _2jContinue   0x00325e    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x003268    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+       _D10KTCYXCODE_0010   0x003282    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x00328e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+      ___case_-1_lbl00174   0x002664    program     static                          
+     ___case_114_lbl00175   0x002668    program     static                          
+     ___case_115_lbl00171   0x002658    program     static                          
+     ___case_116_lbl00173   0x002660    program     static                          
+     ___case_117_lbl00172   0x00265c    program     static                          
+       ___case_1_lbl00168   0x00264c    program     static                          
+       ___case_2_lbl00169   0x002650    program     static                          
+       ___case_3_lbl00170   0x002654    program     static                          
+      ___default_lbl00176   0x00266c    program     static                          
+       ___return_lbl00000   0x0032f8    program     static                          
+       ___return_lbl00000   0x000804    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00001   0x00080c    program     static                          
+       ___return_lbl00001   0x003314    program     static                          
+       ___return_lbl00002   0x00081c    program     static                          
+       ___return_lbl00002   0x003114    program     static                          
+       ___return_lbl00003   0x00000c    program     static                          
+       ___return_lbl00004   0x00001c    program     static                          
+       ___return_lbl00166   0x002672    program     static                          
+   ___switchexit_lbl00167   0x00266e    program     static                          
+               __config_0   0x300000    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_1   0x300001    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              __config_10   0x30000c    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              __config_11   0x30000d    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_2   0x300002    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_3   0x300003    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_4   0x300005    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_5   0x300006    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_6   0x300008    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_7   0x300009    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_8   0x30000a    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_9   0x30000b    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   __init   0x003324    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+              __tmplbl_36   0x002600    program     static                          
+              __tmplbl_37   0x00260c    program     static                          
+              __tmplbl_38   0x002616    program     static                          
+              __tmplbl_39   0x002620    program     static                          
+              __tmplbl_40   0x00262a    program     static                          
+              __tmplbl_41   0x002634    program     static                          
+              __tmplbl_42   0x00263e    program     static                          
+              __tmplbl_43   0x002648    program     static                          
+            __zero_memory   0x003316    program     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                _do_cinit   0x003078    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                   _reset   0x000800    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 _startup   0x0032fa    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     atoi   0x002d12    program     extern C:\MCC18\src\traditional\stdclib\atoi.asm
+                   btoBCD   0x002eb8    program     extern C:\MCC18\src\traditional\stdclib\btobcd.asm
+                     btoa   0x002dfc    program     extern C:\MCC18\src\traditional\stdclib\btoa.asm
+canfitCommandInOutputCommandBuffer   0x002c9c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+               clear_loop   0x00331c    program     static C:\MCC18\src\traditional\proc\p18F2553.asm
+        configDescriptor1   0x003128    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                copy_loop   0x0030ea    program     static                          
+            copy_one_byte   0x0030f0    program     static                          
+               device_dsc   0x003116    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                     done   0x003114    program     static                          
+             done_copying   0x0030fe    program     static                          
+emptyShiftInputCommandBuffer   0x00287a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+emptyShiftOutputCommandBuffer   0x002ba0    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                  endloop   0x0032f4    program     static                          
+  flushInputCommandBuffer   0x002862    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+ flushOutputCommandBuffer   0x002b88    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+          handleIOCommand   0x002230    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       handleMotorCommand   0x0020ba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      handleSystemCommand   0x001f1e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                     jDo1   0x002fae    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo1   0x002e5e    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                    jDo10   0x002f8a    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo2   0x002faa    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo2   0x002e5a    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                     jDo3   0x002fa6    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo3   0x002e56    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                     jDo4   0x002fa2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo5   0x002f9e    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo6   0x002f9a    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo7   0x002f96    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo8   0x002f92    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo9   0x002f8e    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jEnd   0x002ee8    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                     jEnd   0x003062    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                     jEnd   0x002dd0    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     jEnd   0x003270    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+                 jEndLoop   0x002db8    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                    jLoop   0x003252    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+                    jLoop   0x003024    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                    jLoop   0x002ece    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                    jLoop   0x002d6a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                  jSkipWS   0x002d40    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jSkipWS1   0x002d52    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstLowZ1   0x002ea2    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                jTstLowZ1   0x002ff2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                 jTstSign   0x002d56    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign1   0x002e20    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                jTstSign1   0x002d62    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign2   0x002d68    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign3   0x002d6a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     loop   0x0032d8    program     static                          
+                     loop   0x00330a    program     static                          
+                   ltoBCD   0x003008    program     extern C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                     main   0x00198e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   memset   0x00323e    program     extern C:\MCC18\src\traditional\stdclib\memset.asm
+      popHeadInputCommand   0x00269a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+     popHeadOutputCommand   0x0029ce    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+         readInputCommand   0x00267a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        readOutputCommand   0x0029ae    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                    sd000   0x003148    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                    sd001   0x00314c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                    sd002   0x00317a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+      setupOBSCMotorStuff   0x0022f0    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     setupOBSCSensorStuff   0x002342    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                     test   0x003092    program     static                          
+                    ultoa   0x002efe    program     extern C:\MCC18\src\traditional\stdclib\ultoa.asm
+        writeInputCommand   0x0026d8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+       writeOutputCommand   0x002a0c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      BDT   0x000400       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+       BothEP0OutUOWNsSet   0x0001ce       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                   CCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               CCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CtrlTrfData   0x000428       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+            DelayCounter1   0x000018       data     extern C:\MCC18\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x000017       data     extern C:\MCC18\src\traditional\delays\delayd2.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 INPacket   0x000540       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+         Node_Play_Buffer   0x000191       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        OBSC_Command_Addr   0x0001a9       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       OBSC_Command_Funct   0x0001aa       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                OUTPacket   0x000500       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+             RemoteWakeup   0x0001cc       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                     SIGN   0x000000       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 SetupPkt   0x000420       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UADDR   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UADDRbits   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UCFG   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UCFGbits   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UCON   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UCONbits   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEIE   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEIEbits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEIR   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEIRbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP0   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP0bits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP1   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP10   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP10bits   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP11   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP11bits   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP12   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP12bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP13   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP13bits   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP14   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP14bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP15   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP15bits   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP1bits   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP2   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP2bits   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP3   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP3bits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP4bits   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP5   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP5bits   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP6   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP6bits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP7   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP7bits   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP8   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP8bits   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP9   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP9bits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UFRM   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UFRMH   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UFRMHbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UFRML   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UFRMLbits   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      UIE   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  UIEbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      UIR   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  UIRbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+      USARTCommandTimeout   0x0001a7       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+             USART_Status   0x0000fa       data     extern C:\MCC18\src\pmc_common\USART\udefs.c
+   USBActiveConfiguration   0x0001ae       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+    USBAlternateInterface   0x0001af       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+           USBDeviceState   0x0001ad       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBGenericInHandle   0x0000ed       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      USBGenericOutHandle   0x0000eb       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                USBInData   0x0001d1       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBInMaxPacketSize   0x0001cf       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+  USBSWARMSCommandTimeout   0x000181       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                    USTAT   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                USTATbits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                USTATcopy   0x0001cd       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+              VehicleType   0x000180       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 __AARGB0   0x000009       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                __FPFLAGS   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                  __REMB0   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __tmp_0   0x000010       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                  __tmp_0   0x000010       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                  __tmp_0   0x000010       data     static C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         blinkStatusValid   0x0000ea       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       buttonPressHandled   0x0000ef       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+          commandInBuffer   0x000100       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+         commandOutBuffer   0x000060       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+         commandRequested   0x000186       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     controlTransferState   0x0001bd       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                curr_byte   0x0000e3       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000e5       data     static C:\MCC18\src\traditional\startup\c018i.c
+currentSWARMSCommandHandling   0x000183       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   currentlyConnectedNode   0x000185       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 data_ptr   0x0000e7       data     static C:\MCC18\src\traditional\startup\c018i.c
+              delay_count   0x0000f0       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         headInputPointer   0x0000f2       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        headOutputPointer   0x0000f6       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                  inPipes   0x0001be       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   isWaitingForReturnData   0x0001a6       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                led_count   0x0001ab       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 outPipes   0x0001c3       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   pBDTEntryEP0OutCurrent   0x0001b0       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      pBDTEntryEP0OutNext   0x0001b2       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+              pBDTEntryIn   0x0001b8       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+             pBDTEntryOut   0x0001b4       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                     pDst   0x0001ca       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                     prom   0x0000e0       data     static C:\MCC18\src\traditional\startup\c018i.c
+     serialNode_In_Buffer   0x000187       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+    serialNode_Out_Buffer   0x00019b       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+  serialNode_Out_Iterator   0x0001a5       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        shortPacketStatus   0x0001bc       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         tailInputPointer   0x0000f4       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        tailOutputPointer   0x0000f8       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+            tempDataChars   0x000580       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                 High_ISR   0x000008    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ___return_lbl00003   0x00000c    program     static                          
+                  Low_ISR   0x000018    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ___return_lbl00004   0x00001c    program     static                          
+                   _reset   0x000800    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ___return_lbl00000   0x000804    program     static                          
+        Remapped_High_ISR   0x000808    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ___return_lbl00001   0x00080c    program     static                          
+         Remapped_Low_ISR   0x000818    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ___return_lbl00002   0x00081c    program     static                          
+            USBDeviceInit   0x000844    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+           USBDeviceTasks   0x0008e0    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBStallHandler   0x000a22    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+               USBSuspend   0x000a54    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBWakeFromSuspend   0x000a78    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         USBCtrlEPService   0x000aa2    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   USBCtrlTrfSetupHandler   0x000b7c    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBCtrlTrfOutHandler   0x000bc2    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfInHandler   0x000c0e    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+USBPrepareForNextSetupTrf   0x000ca8    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBCheckStdRequest   0x000d0e    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+  USBStdFeatureReqHandler   0x000dd6    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBStdGetDscHandler   0x000ef0    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   USBStdGetStatusHandler   0x000fa4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+ USBCtrlEPServiceComplete   0x001066    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfTxService   0x001210    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBCtrlTrfRxService   0x001326    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      USBStdSetCfgHandler   0x001462    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBConfigureEndpoint   0x0014d4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+        USBEnableEndpoint   0x0015a8    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+         USBStallEndpoint   0x001614    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     USBTransferOnePacket   0x0016f4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+              USBCancelIO   0x0017e6    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBDeviceDetach   0x001896    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+          USBDeviceAttach   0x0018a4    program     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+  YourHighPriorityISRCode   0x0018d2    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   YourLowPriorityISRCode   0x001968    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                     main   0x00198e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         InitializeSystem   0x0019a6    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 UserInit   0x0019ba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ProcessSWARMSInput   0x0019f4    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      ProcessSWARMSOutput   0x001bba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+    ProcessBaseHardwareIO   0x001d02    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         SWARMSProcessing   0x001d2c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     SWARMSCommandCleanUp   0x001e32    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+ SWARMSMakeCommandSuccess   0x001e44    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   ManageAnteriorLighting   0x001f14    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      handleSystemCommand   0x001f1e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       handleMotorCommand   0x0020ba    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+          handleIOCommand   0x002230    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      setupOBSCMotorStuff   0x0022f0    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     setupOBSCSensorStuff   0x002342    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       ProcessUSARTDataIO   0x00236e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     ServiceUSARTCommands   0x002406    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+            USARTxService   0x0024a8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+           BlinkUSBStatus   0x002500    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+             USBCBSuspend   0x002584    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     USBCBWakeFromSuspend   0x002586    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        USBCB_SOF_Handler   0x002588    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        USBCBErrorHandler   0x00258a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       USBCBCheckOtherReq   0x00258c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+    USBCBStdSetDscHandler   0x00258e    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              USBCBInitEP   0x002590    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+          USBCBSendResume   0x0025c8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x0025e4    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              __tmplbl_36   0x002600    program     static                          
+              __tmplbl_37   0x00260c    program     static                          
+              __tmplbl_38   0x002616    program     static                          
+              __tmplbl_39   0x002620    program     static                          
+              __tmplbl_40   0x00262a    program     static                          
+              __tmplbl_41   0x002634    program     static                          
+              __tmplbl_42   0x00263e    program     static                          
+              __tmplbl_43   0x002648    program     static                          
+       ___case_1_lbl00168   0x00264c    program     static                          
+       ___case_2_lbl00169   0x002650    program     static                          
+       ___case_3_lbl00170   0x002654    program     static                          
+     ___case_115_lbl00171   0x002658    program     static                          
+     ___case_117_lbl00172   0x00265c    program     static                          
+     ___case_116_lbl00173   0x002660    program     static                          
+      ___case_-1_lbl00174   0x002664    program     static                          
+     ___case_114_lbl00175   0x002668    program     static                          
+      ___default_lbl00176   0x00266c    program     static                          
+   ___switchexit_lbl00167   0x00266e    program     static                          
+       ___return_lbl00166   0x002672    program     static                          
+         readInputCommand   0x00267a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+      popHeadInputCommand   0x00269a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        writeInputCommand   0x0026d8    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+  flushInputCommandBuffer   0x002862    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+emptyShiftInputCommandBuffer   0x00287a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        readOutputCommand   0x0029ae    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+     popHeadOutputCommand   0x0029ce    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+       writeOutputCommand   0x002a0c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+ flushOutputCommandBuffer   0x002b88    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+emptyShiftOutputCommandBuffer   0x002ba0    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+canfitCommandInOutputCommandBuffer   0x002c9c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                     atoi   0x002d12    program     extern C:\MCC18\src\traditional\stdclib\atoi.asm
+                  jSkipWS   0x002d40    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jSkipWS1   0x002d52    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jTstSign   0x002d56    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign1   0x002d62    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign2   0x002d68    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                    jLoop   0x002d6a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                jTstSign3   0x002d6a    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                 jEndLoop   0x002db8    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     jEnd   0x002dd0    program     static C:\MCC18\src\traditional\stdclib\atoi.asm
+                     btoa   0x002dfc    program     extern C:\MCC18\src\traditional\stdclib\btoa.asm
+                jTstSign1   0x002e20    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                     jDo3   0x002e56    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                     jDo2   0x002e5a    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                     jDo1   0x002e5e    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                 TstUpper   0x002e92    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                 TstLower   0x002e98    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                jTstLowZ1   0x002ea2    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                ProcUpper   0x002ea4    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                ProcLower   0x002eae    program     static C:\MCC18\src\traditional\stdclib\btoa.asm
+                   btoBCD   0x002eb8    program     extern C:\MCC18\src\traditional\stdclib\btobcd.asm
+                    jLoop   0x002ece    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                     jEnd   0x002ee8    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                  OneByte   0x002eec    program     static C:\MCC18\src\traditional\stdclib\btobcd.asm
+                    ultoa   0x002efe    program     extern C:\MCC18\src\traditional\stdclib\ultoa.asm
+                    jDo10   0x002f8a    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo9   0x002f8e    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo8   0x002f92    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo7   0x002f96    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo6   0x002f9a    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo5   0x002f9e    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo4   0x002fa2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo3   0x002fa6    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo2   0x002faa    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                     jDo1   0x002fae    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                 TstUpper   0x002fe2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                 TstLower   0x002fe8    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                jTstLowZ1   0x002ff2    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                ProcUpper   0x002ff4    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                ProcLower   0x002ffe    program     static C:\MCC18\src\traditional\stdclib\ultoa.asm
+                   ltoBCD   0x003008    program     extern C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                    jLoop   0x003024    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                     jEnd   0x003062    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                  OneByte   0x003066    program     static C:\MCC18\src\traditional\stdclib\ltobcd.asm
+                _do_cinit   0x003078    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x003092    program     static                          
+                copy_loop   0x0030ea    program     static                          
+            copy_one_byte   0x0030f0    program     static                          
+             done_copying   0x0030fe    program     static                          
+       ___return_lbl00002   0x003114    program     static                          
+                     done   0x003114    program     static                          
+               device_dsc   0x003116    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+        configDescriptor1   0x003128    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                    sd000   0x003148    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                    sd001   0x00314c    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                    sd002   0x00317a    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+               USB_CD_Ptr   0x0031ac    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+               USB_SD_Ptr   0x0031ae    program     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.c
+                 FXD1616S   0x0031b4    program     extern C:\MCC18\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x0031c6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                   D1616S   0x0031d6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x0031e0    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x0031e4    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0031f6    program     static C:\MCC18\src\traditional\math\fxd1616s.asm
+                ReadUSART   0x003200    program     extern C:\MCC18\src\pmc_common\USART\uread.c
+                   memset   0x00323e    program     extern C:\MCC18\src\traditional\stdclib\memset.asm
+                    jLoop   0x003252    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+              _2jContinue   0x00325e    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x003268    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+                     jEnd   0x003270    program     static C:\MCC18\src\traditional\stdclib\memset.asm
+             Delay10KTCYx   0x003272    program     extern C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x00327c    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x00327e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x003282    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x00328a    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x00328e    program     static C:\MCC18\src\traditional\delays\d10ktcyx.asm
+               WriteUSART   0x0032a0    program     extern C:\MCC18\src\pmc_common\USART\uwrite.c
+                 FXD1616U   0x0032ce    program     extern C:\MCC18\src\traditional\math\fxd1616u.c
+                     loop   0x0032d8    program     static                          
+                  endloop   0x0032f4    program     static                          
+       ___return_lbl00000   0x0032f8    program     static                          
+                 _startup   0x0032fa    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x00330a    program     static                          
+       ___return_lbl00001   0x003314    program     static                          
+            __zero_memory   0x003316    program     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               clear_loop   0x00331c    program     static C:\MCC18\src\traditional\proc\p18F2553.asm
+                   __init   0x003324    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+               __config_0   0x300000    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_1   0x300001    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_2   0x300002    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_3   0x300003    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_4   0x300005    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_5   0x300006    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_6   0x300008    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_7   0x300009    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_8   0x30000a    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+               __config_9   0x30000b    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              __config_10   0x30000c    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              __config_11   0x30000d    program     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                     SIGN   0x000000       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
+                 __AARGB7   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB6   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB1   0x000004       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB4   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                  __REMB0   0x000005       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB3   0x000006       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB2   0x000007       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB1   0x000008       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __AARGB0   0x000009       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                   __AEXP   0x00000a       data     extern C:\MCC18\src\traditional\math\aarg.asm
+                 __BARGB3   0x00000b       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB2   0x00000c       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB1   0x00000d       data     extern C:\MCC18\src\traditional\math\barg.asm
+                 __BARGB0   0x00000e       data     extern C:\MCC18\src\traditional\math\barg.asm
+                   __BEXP   0x00000f       data     extern C:\MCC18\src\traditional\math\barg.asm
+                  __tmp_0   0x000010       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                  __tmp_0   0x000010       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                  __tmp_0   0x000010       data     static C:\Microchip Solutions\Microchip\Usb\usb_device.c
+            DelayCounter2   0x000017       data     extern C:\MCC18\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000018       data     extern C:\MCC18\src\traditional\delays\delayd1.asm
+         commandOutBuffer   0x000060       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+                     prom   0x0000e0       data     static C:\MCC18\src\traditional\startup\c018i.c
+                curr_byte   0x0000e3       data     static C:\MCC18\src\traditional\startup\c018i.c
+               curr_entry   0x0000e5       data     static C:\MCC18\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e7       data     static C:\MCC18\src\traditional\startup\c018i.c
+         blinkStatusValid   0x0000ea       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      USBGenericOutHandle   0x0000eb       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       USBGenericInHandle   0x0000ed       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       buttonPressHandled   0x0000ef       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+              delay_count   0x0000f0       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         headInputPointer   0x0000f2       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+         tailInputPointer   0x0000f4       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        headOutputPointer   0x0000f6       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+        tailOutputPointer   0x0000f8       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+             USART_Status   0x0000fa       data     extern C:\MCC18\src\pmc_common\USART\udefs.c
+          commandInBuffer   0x000100       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.c
+              VehicleType   0x000180       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+  USBSWARMSCommandTimeout   0x000181       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+currentSWARMSCommandHandling   0x000183       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   currentlyConnectedNode   0x000185       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         commandRequested   0x000186       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+     serialNode_In_Buffer   0x000187       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+         Node_Play_Buffer   0x000191       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+    serialNode_Out_Buffer   0x00019b       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+  serialNode_Out_Iterator   0x0001a5       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+   isWaitingForReturnData   0x0001a6       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+      USARTCommandTimeout   0x0001a7       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+        OBSC_Command_Addr   0x0001a9       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+       OBSC_Command_Funct   0x0001aa       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                led_count   0x0001ab       data     static C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+           USBDeviceState   0x0001ad       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   USBActiveConfiguration   0x0001ae       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+    USBAlternateInterface   0x0001af       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+   pBDTEntryEP0OutCurrent   0x0001b0       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+      pBDTEntryEP0OutNext   0x0001b2       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+             pBDTEntryOut   0x0001b4       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+              pBDTEntryIn   0x0001b8       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+        shortPacketStatus   0x0001bc       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+     controlTransferState   0x0001bd       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                  inPipes   0x0001be       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                 outPipes   0x0001c3       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                     pDst   0x0001ca       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+             RemoteWakeup   0x0001cc       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                USTATcopy   0x0001cd       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       BothEP0OutUOWNsSet   0x0001ce       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+       USBInMaxPacketSize   0x0001cf       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                USBInData   0x0001d1       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                      BDT   0x000400       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                 SetupPkt   0x000420       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+              CtrlTrfData   0x000428       data     extern C:\Microchip Solutions\Microchip\Usb\usb_device.c
+                OUTPacket   0x000500       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                 INPacket   0x000540       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+            tempDataChars   0x000580       data     extern C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.c
+                UFRMLbits   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UFRML   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UFRM   0x000f66       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UFRMHbits   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UFRMH   0x000f67       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  UIRbits   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      UIR   0x000f68       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      UIE   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  UIEbits   0x000f69       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEIRbits   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEIR   0x000f6a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEIE   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEIEbits   0x000f6b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                USTATbits   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    USTAT   0x000f6c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UCON   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UCONbits   0x000f6d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UADDR   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UADDRbits   0x000f6e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UCFG   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UCFGbits   0x000f6f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP0bits   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP0   0x000f70       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP1   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP1bits   0x000f71       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP2   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP2bits   0x000f72       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP3   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP3bits   0x000f73       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP4   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP4bits   0x000f74       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP5   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP5bits   0x000f75       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP6   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP6bits   0x000f76       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP7bits   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP7   0x000f77       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP8bits   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP8   0x000f78       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 UEP9bits   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     UEP9   0x000f79       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP10   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP10bits   0x000f7a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP11   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP11bits   0x000f7b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP12   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP12bits   0x000f7c       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP13   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP13bits   0x000f7d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP14   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP14bits   0x000f7e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    UEP15   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                UEP15bits   0x000f7f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTA   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTAbits   0x000f80       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTBbits   0x000f81       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTC   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTCbits   0x000f82       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                PORTEbits   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PORTE   0x000f84       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATAbits   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATA   0x000f89       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATBbits   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATB   0x000f8a       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     LATC   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 LATCbits   0x000f8b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     DDRA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISAbits   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISA   0x000f92       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     DDRB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISB   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISBbits   0x000f93       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     DDRC   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 DDRCbits   0x000f94       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  OSCTUNE   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              OSCTUNEbits   0x000f9b       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIE1bits   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIE1   0x000f9d       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIR1bits   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIR1   0x000f9e       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 IPR1bits   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIE2bits   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIE2   0x000fa0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 PIR2bits   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 IPR2bits   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     IPR2   0x000fa2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EECON1   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               EECON1bits   0x000fa6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EECON2   0x000fa7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   EEDATA   0x000fa8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    EEADR   0x000fa9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                RCSTAbits   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TXSTA   0x000fac       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TXREG   0x000fad       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    RCREG   0x000fae       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    SPBRG   0x000faf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SPBRGH   0x000fb0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T3CONbits   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T3CON   0x000fb1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR3L   0x000fb2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR3H   0x000fb3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                CMCONbits   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CMCON   0x000fb4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CVRCON   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  ECCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               CCP1ASbits   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCP1AS   0x000fb6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              BAUDCONbits   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP2CON   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP2CONbits   0x000fba       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CCPR2   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR2L   0x000fbb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR2H   0x000fbc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              CCP1CONbits   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    CCPR1   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR1L   0x000fbe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   CCPR1H   0x000fbf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON2bits   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADCON2   0x000fc0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON1bits   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADCON1   0x000fc1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    ADRES   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADRESL   0x000fc3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   ADRESH   0x000fc4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPCON2   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPCON2bits   0x000fc5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPCON1   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPCON1bits   0x000fc6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  SSPSTAT   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              SSPSTATbits   0x000fc7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SSPADD   0x000fc8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   SSPBUF   0x000fc9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T2CONbits   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T2CON   0x000fca       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      PR2   0x000fcb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TMR2   0x000fcc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T1CONbits   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T1CON   0x000fcd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR1L   0x000fce       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR1H   0x000fcf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     RCON   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 RCONbits   0x000fd0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   WDTCON   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               WDTCONbits   0x000fd1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               LVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   LVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              HLVDCONbits   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  HLVDCON   0x000fd2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               OSCCONbits   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   OSCCON   0x000fd3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    T0CON   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                T0CONbits   0x000fd5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR0L   0x000fd6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    TMR0H   0x000fd7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               STATUSbits   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   STATUS   0x000fd8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR2L   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR2   0x000fd9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR2H   0x000fda       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW2   0x000fdb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC2   0x000fdc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC2   0x000fdd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC2   0x000fde       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF2   0x000fdf       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      BSR   0x000fe0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR1   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR1L   0x000fe1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR1H   0x000fe2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW1   0x000fe3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC1   0x000fe4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC1   0x000fe5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC1   0x000fe6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF1   0x000fe7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     WREG   0x000fe8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     FSR0   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR0L   0x000fe9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    FSR0H   0x000fea       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PLUSW0   0x000feb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  PREINC0   0x000fec       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTDEC0   0x000fed       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                 POSTINC0   0x000fee       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    INDF0   0x000fef       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              INTCON3bits   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  INTCON3   0x000ff0       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+              INTCON2bits   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  INTCON2   0x000ff1       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               INTCONbits   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   INTCON   0x000ff2       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     PROD   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PRODL   0x000ff3       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                    PRODH   0x000ff4       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   TABLAT   0x000ff5       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   TBLPTR   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRL   0x000ff6       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRH   0x000ff7       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                  TBLPTRU   0x000ff8       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      PCL   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                       PC   0x000ff9       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PCLATH   0x000ffa       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   PCLATU   0x000ffb       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                   STKPTR   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+               STKPTRbits   0x000ffc       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                      TOS   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSL   0x000ffd       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSH   0x000ffe       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+                     TOSU   0x000fff       data     extern C:\MCC18\src\traditional\proc\p18F2553.asm
+
+

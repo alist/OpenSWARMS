@@ -1,0 +1,97 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\main.o
+Folder=Intermediary
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=-k -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\fifoTxRx.o
+Folder=Intermediary
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=-k -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_descriptors.o
+Folder=Intermediary
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=-k -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_device.o
+Folder=Intermediary
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=-k -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\usb_function_generic.o
+Folder=Intermediary
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=-k -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\UBW_LIBUSB.cof
+Folder=Output
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=C:\public\Code\SWARMS\SWARMS LIBUSB UBW Controller\LibUSB Simple Demo - Firmware\UBW_LIBUSB.hex
+Folder=Output
+DeviceName=PIC18F2553
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files\Microchip\MCC18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\public\Code\SWARMS\SWARMS Common;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)|C:\Program Files\Microchip\MCC18\lib||$(LKRDIR)|..||
+SOLK=<src>|main.c|fifoTxRx.c|usb_descriptors.c|C:\Microchip Solutions\Microchip\Usb\usb_device.c|C:\Microchip Solutions\Microchip\Usb\Generic Device Driver\usb_function_generic.c||<obj>||<lib>||<lkr>|rm18f2553.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files\Microchip\MCC18\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files\Microchip\MCC18\bin\mcc18.exe

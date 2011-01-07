@@ -1,0 +1,10 @@
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\ResolveAssemblyReference.cache
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\SWARMS_SHARP_Socket_Host.Form1.resources
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\SWARMS_SHARP_Socket_Host.Properties.Resources.resources
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\SWARMS SHARP Socket Host.csproj.GenerateResource.Cache
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\bin\Debug\SWARMS SHARP Socket Host.exe
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\bin\Debug\SWARMS SHARP Socket Host.pdb
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\SWARMS SHARP Socket Host.exe
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\obj\Debug\SWARMS SHARP Socket Host.pdb
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\bin\Debug\LibUsbDotNet.dll
+C:\public\Code\SWARMS\SWARMS SHARP Socket Host\SWARMS SHARP Socket Host\bin\Debug\LibUsbDotNet.xml

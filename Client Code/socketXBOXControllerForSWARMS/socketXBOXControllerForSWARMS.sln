@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socketXBOXControllerForSWARMS", "socketXBOXControllerForSWARMS\socketXBOXControllerForSWARMS.csproj", "{D08074B7-642C-4ABD-ACD8-C956E64B1CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94A4EF0B-0FDA-4EFC-8488-645415C783D5}"
+	ProjectSection(SolutionItems) = preProject
+		Microsoft.Xna.Framework.dll = Microsoft.Xna.Framework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08074B7-642C-4ABD-ACD8-C956E64B1CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08074B7-642C-4ABD-ACD8-C956E64B1CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08074B7-642C-4ABD-ACD8-C956E64B1CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08074B7-642C-4ABD-ACD8-C956E64B1CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
