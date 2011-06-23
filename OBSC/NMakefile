@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with Microsoft `nmake'.
+# Project: OBSC Rev 2.mcp
+# Date: Wed Feb 25 18:45:17 2009
+
+AS = mpasmwin.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = del
+
+"OBSC Rev 2.cof" : "maincode.o"
+	$(LD) /l"C:\Program Files\Microchip\MCC18\lib" "..\..\..\Program Files\Microchip\MCC18\lkr\18f2620i.lkr" "maincode.o" "C:\Program Files\Microchip\MCC18\lib\p18f2620.lib" /u_CRUNTIME /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"OBSC Rev 2.cof" /M"OBSC Rev 2.map" /W
+
+"maincode.o" : "maincode.c" "..\..\..\Program Files\Microchip\MCC18\h\delays.h" "..\..\..\Program Files\Microchip\MCC18\h\string.h" "..\..\..\Program Files\Microchip\MCC18\h\adc.h" "..\..\..\Program Files\Microchip\MCC18\h\pwm.h" "..\..\..\Program Files\Microchip\MCC18\h\EEP.h" "..\..\..\Program Files\Microchip\MCC18\h\usart.h" "maincode.c" "..\..\..\Program Files\Microchip\MCC18\h\p18f2620.h" "..\..\..\Program Files\Microchip\MCC18\h\p18cxxx.h" "..\..\..\Program Files\Microchip\MCC18\h\stddef.h" "..\..\..\Program Files\Microchip\MCC18\h\pconfig.h" "mainconfig.h" "functionheaders.h"
+	$(CC) -p=18F2620 "maincode.c" -fo="maincode.o" -D__DEBUG -pa=10
+
+"clean" : 
+	$(RM) "maincode.o" "OBSC Rev 2.cof" "OBSC Rev 2.hex"
+

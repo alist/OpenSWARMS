@@ -1,0 +1,9 @@
+This is the embedded code for the OBSC system that the SWARMS controller communicates with
+
+This code directory is a project folder for MPLab, and compiles on a P18F2620
+
+Other files, including diagrams of the SWARMS circuit are included in this directory
+
+It is assumed that either you are reverse engineering the existing OBSC circuitry on the RC car, or you're trying to install the SWARMS spec onto a new controller.
+
+In the second case, it is hereby recommended that you only use this code as a TEMPLATE for serial TTY communication, and that you disable extra features like sensors that are superfluous. Moreover, it is suggested that you simply merge the function of the OBSC and the SWARMS controllers when communicating to a component like the beagleboard controller.

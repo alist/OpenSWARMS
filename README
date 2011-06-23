@@ -1,4 +1,4 @@
-Welcome to openSWARMS
+Welcome to OpenSWARMS
 
 This project contains code for several different platforms, all of which will be explained herin
 
@@ -21,4 +21,4 @@ Installation notes:
 The UBW bootloader definitely needs to be installed otherwise you must use the In Circuit Serial Programing interface with wires
 that's no fun, but the code in UBW SWARMS Pic will work
 
-Right now the client and embedded code works on windows and is written in C#; I'm working on improving that 
+Right now the client and embedded code works on windows and is written in C#
