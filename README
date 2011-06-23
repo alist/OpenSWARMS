@@ -22,3 +22,6 @@ The UBW bootloader definitely needs to be installed otherwise you must use the I
 that's no fun, but the code in UBW SWARMS Pic will work
 
 Right now the client and embedded code works on windows and is written in C#
+
+LICENSE:
+This code is hereby licensed under the MIT License @ http://www.opensource.org/licenses/mit-license.php
